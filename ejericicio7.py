@@ -1,4 +1,5 @@
 def calcular_producto(a, b):
+    """calcula el producto"""
     if a > b or a == 0 or b == 0:
         return 0
     else:

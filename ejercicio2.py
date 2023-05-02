@@ -1,6 +1,7 @@
 import math
 def area_circulo(ra):
-   return round(math.pi * ra**2, 25)
+   """retorna el area de un circulo"""
+   return round(math.pi * ra**2, 2)
 
 radio=int(input("Ingrese el radio del circulo: "))
 a=area_circulo(radio)

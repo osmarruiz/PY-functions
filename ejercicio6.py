@@ -1,6 +1,7 @@
 import math
 
 def logaritmo_en_base(b, x):
+    """calcula el logaritmo"""
     return math.log(x, b)
 
 b = float(input("Ingresa la base del logaritmo: "))

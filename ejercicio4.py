@@ -1,4 +1,5 @@
 def celsius_a_fahrenheit(grados_celsius):
+    """calcula y retorna los grados fahrenheit con los grados celsius ingresado"""
     grados_fahrenheit = (grados_celsius * 9/5) + 32
     return grados_fahrenheit
 

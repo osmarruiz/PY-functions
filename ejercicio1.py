@@ -1,4 +1,5 @@
 def raiz_cubica(x):
+    """retorna la raiz cubica de x"""
     return int(x ** (1/3))
 
 print("****Raiz cubica de X****")
